@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Art Calendar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calendar" id="calendar">
+
+  <div class="controls">
+    <button id="prev">‹</button>
+    <button id="todayBtn">TODAY</button>
+    <button id="next">›</button>
+  </div>
+
+  <div class="calendar-content fade" id="calendarContent">
+
+    <h1 id="monthTitle"></h1>
+
+    <div class="weekdays">
+      <div>Mon</div><div>Tue</div><div>Wed</div>
+      <div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
+    </div>
+
+    <div class="days" id="daysGrid"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
